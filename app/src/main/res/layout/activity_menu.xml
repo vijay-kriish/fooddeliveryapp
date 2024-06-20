@@ -74,7 +74,7 @@
         android:layout_width="127dp"
         android:layout_height="65dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/photo_menu" />
@@ -84,9 +84,11 @@
         android:layout_width="121dp"
         android:layout_height="75dp"
         android:layout_marginStart="24dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/menu_photo__2_" />
 
     <TextView
@@ -110,19 +112,24 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="71dp"
         android:layout_marginEnd="71dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="24dp"
         android:text="Friut Salad"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="@+id/textView12"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="80dp"
         android:text="Corn Soup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/textView18"
-        tools:layout_editor_absoluteX="218dp" />
+        app:layout_constraintVertical_bias="0.959" />
 </androidx.constraintlayout.widget.ConstraintLayout>
