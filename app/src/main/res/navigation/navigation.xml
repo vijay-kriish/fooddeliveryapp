@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.diceroller.frag.homefragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" />
+    <fragment
+        android:id="@+id/cartfrag"
+        android:name="com.example.diceroller.frag.cartfrag"
+        android:label="fragment_cartfrag"
+        tools:layout="@layout/fragment_cartfrag" />
+    <fragment
+        android:id="@+id/searchfrag"
+        android:name="com.example.diceroller.frag.searchfrag"
+        android:label="fragment_searchfrag"
+        tools:layout="@layout/fragment_searchfrag" />
+    <fragment
+        android:id="@+id/historyfrag"
+        android:name="com.example.diceroller.frag.historyfrag"
+        android:label="fragment_historyfrag"
+        tools:layout="@layout/fragment_historyfrag" />
+    <fragment
+        android:id="@+id/profilefrag"
+        android:name="com.example.diceroller.frag.profilefrag"
+        android:label="fragment_profilefrag"
+        tools:layout="@layout/fragment_profilefrag" />
+</navigation>
