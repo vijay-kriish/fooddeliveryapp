@@ -20,11 +20,6 @@ class location : AppCompatActivity() {
         val adapter=ArrayAdapter(this,android.R.layout.simple_list_item_1,location)
         val autoCompleteTextView=binding.listt
         autoCompleteTextView.setAdapter(adapter)
-        Handler().postDelayed({
-            val intent = Intent(this, com.example.diceroller.menu::class.java)
-            startActivity(intent)
-            finish()
-        },3000)
 
     }
 }
